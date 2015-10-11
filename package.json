@@ -1,0 +1,21 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "hello bot for slack",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.x.x",
+    "body-parser": "^1.x.x",
+    "request": "2.56.x"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "slackbot",
+    "hello"
+  ],
+  "author": "Francesco <falanga.fra@gmail.com>",
+  "license": "MIT"
+}
