@@ -8,10 +8,17 @@
     "body-parser": "^1.x.x",
     "request": "2.56.x"
   },
-  "devDependencies": {},
-  "scripts": {
-    "test": "test"
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*",
+    "supertest": "*",
+    "supervisor": "*"
   },
+  "scripts": {
+    "test": "NODE_ENV=test ./node_modules/.bin/mocha --reporter spec",
+    "start": "node app"
+  },
+  "repository": "https://github.com/ceccode/slack-hello",
   "keywords": [
     "slackbot",
     "hello"
